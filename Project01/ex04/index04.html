@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+
+<html lang ="en">
+
+<head>
+
+<metacharset = "UTF-8">
+<meta name "viewport" content "width = device-width, initial-scale =1.0">
+
+<title>Forms and Inputs</title>
+</head>
+
+<body>
+<form action="/action_page.php">
+  <label for="name">Full Name:</label><br>
+  <input type="text" id="name" name="fname" required><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="pass" required minlength="8"><br><br>
+  
+  <input type="radio" id="male" name="gender">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender">
+  <label for="female">Female</label><br>
+  <label for="country">Country:</label>
+    <select id="country" name="country" required>
+        <option value="jordan">Jordan</option>
+        <option value="usa">KSA</option>
+        <option value="uk">UAE</option>
+    </select>
+
+    <br><br>
+  <label for="message">About You:</label>
+  <textarea id="message" name="message" required></textarea><br><br>
+
+  <input type="checkbox" id="agreement" name="agreement" required>
+  <label for="agreement">I agree to the terms and conditions.</label>
+
+    <br><br>
+
+  <button type="submit">submit</button>
+</body>
+
+
+</html>
