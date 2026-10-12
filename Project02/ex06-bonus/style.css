@@ -1,0 +1,23 @@
+.card {
+    padding: 30px;
+    background-color: lightblue;
+    transition: 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.card:hover,
+button:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 5px 15px gray;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
